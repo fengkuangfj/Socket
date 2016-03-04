@@ -15,7 +15,8 @@
 #include <iostream>
 #include <winsock2.h>
 
-#include "..\\..\\Public\\ProcessType\\ProcessType.h"
+#include "..\\..\\Public\\ModulePath\\ModulePath.h"
+#include "..\\..\\Public\\ProcessControl\\ProcessControl.h"
 #include "..\\..\\Public\\PrintfEx\\PrintfEx.h"
 #include "..\\..\\Public\\StringInternal\\StringInternal.h"
 #include "..\\..\\Public\\CommandLine\\CommandLine.h"

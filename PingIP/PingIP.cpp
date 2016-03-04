@@ -12,13 +12,9 @@ BOOL
 	CMD_RESULT_INFO CmdResultInfo	= {0};
 	SYSTEMTIME		SystemTime		= {0};
 
-	CPrintfEx		PrintfEx;
-
 
 	__try
 	{
-		PrintfEx.Init();
-
 		CmdResultInfo.lpResult = tchReslt;
 		CmdResultInfo.ulResultBufferSizeCh = _countof(tchReslt);
 
@@ -47,7 +43,7 @@ BOOL
 	}
 	__finally
 	{
-		;
+		CPrintfEx::ReleaseInstance();
 	}
 
 	return bRet;

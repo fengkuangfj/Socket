@@ -33,7 +33,10 @@
     <ClInclude Include="..\..\Public\PrintfEx\PrintfEx.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Public\ProcessType\ProcessType.h">
+    <ClInclude Include="..\..\Public\ProcessControl\ProcessControl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Public\ModulePath\ModulePath.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="resource.h">
@@ -56,7 +59,10 @@
     <ClCompile Include="..\..\Public\PrintfEx\PrintfEx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Public\ProcessType\ProcessType.cpp">
+    <ClCompile Include="..\..\Public\ProcessControl\ProcessControl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Public\ModulePath\ModulePath.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
